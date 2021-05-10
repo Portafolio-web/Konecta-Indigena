@@ -863,7 +863,7 @@ margin-right: 10px;
 	height: 300px;
 }
 .single_project:before {
-    background:#020928;
+    background:#434F49;
 	opacity:0.6;
     bottom: 0;
     content: "";
@@ -919,6 +919,8 @@ opacity: 0;
     -ms-transform: scale(1);
     transform: scale(1);
 }
+
+
 .project_btn {
 	background: #B4423C;
 	border: 1px solid #B4423C;
