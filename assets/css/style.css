@@ -1828,6 +1828,9 @@ padding-bottom: 0;
 @media only screen and (max-width: 768px ) { 
 .status-mes img{padding-left: 310px;}
 }
+.banner .row img{
+	padding-right: 25px;
+}
 @media only screen and (max-width: 480px ) { 
 .status-mes img{padding-left: 160px;}
 .single-team{
@@ -1837,8 +1840,20 @@ padding-bottom: 0;
 .single-team .team-content{
  margin: 15px;
 }
+.banner .row img{
+	padding-right: 0px;
+    margin-left: -25px;
+	margin-top: 23px;
+	width: 40rem;
+}
 @media only screen and (max-width: 411px ) { 
 .status-mes img{padding-left: 126px;}
+}
+.banner .row img{
+	padding-right: 0px;
+    margin-left: -20px;
+	margin-top: 23px;
+	width: 40rem;
 }
 @media only screen and (max-width: 414px ) { 
 .status-mes img{padding-left: 124px;}
@@ -1862,6 +1877,9 @@ padding-bottom: 0;
 @media only screen and (max-width: 360px ) { 
 .status-mes img{padding-left: 97px;}
 }
+.banner .row img{
+	margin-top: 25px;
+}
 @media only screen and (max-width: 320px ) { 
 .status-mes img{padding-left: 75px;}
 .single-team{
@@ -1870,6 +1888,12 @@ padding-bottom: 0;
  }
 .single-team .team-content{
  margin: 15px;
+}
+.banner .row img{
+	padding-right: 0px;
+    margin-left: -15px;
+	margin-top: 23px;
+	width: 40rem;
 }
 @media only screen and (max-width: 280px ) { 
 .status-mes img{padding-left: 55px;}
@@ -1880,6 +1904,12 @@ padding-bottom: 0;
  }
 .single-team .team-content{
  margin: 15px;
+}
+.banner .row img{
+	padding-right: 0px;
+    margin-left: 0px;
+	margin-top: 25px;
+	width: 40rem;
 }
 }
 
