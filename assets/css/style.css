@@ -1829,7 +1829,7 @@ padding-bottom: 0;
 .status-mes img{padding-left: 310px;}
 }
 .banner .row img{
-	padding-right: 25px;
+	padding-left: 0px;
 }
 @media only screen and (max-width: 480px ) { 
 .status-mes img{padding-left: 160px;}
@@ -1847,16 +1847,17 @@ padding-bottom: 0;
 	width: 40rem;
 }
 @media only screen and (max-width: 411px ) { 
-.status-mes img{padding-left: 126px;}
+.status-mes img{padding-left: 160px;}
+}
 }
 .banner .row img{
 	padding-right: 0px;
-    margin-left: -20px;
+    margin-left: 0px;
 	margin-top: 23px;
 	width: 40rem;
 }
 @media only screen and (max-width: 414px ) { 
-.status-mes img{padding-left: 124px;}
+.status-mes img{padding-left: 110px;}
 }
 .single-team{
 	width: 80%;
@@ -1867,7 +1868,7 @@ padding-bottom: 0;
 }
 .banner .row img{
 	padding-right: 0px;
-    margin-left: -25px;
+    margin-right: 5px;
 	margin-top: 23px;
 	width: 40rem;
 }
@@ -1879,6 +1880,12 @@ padding-bottom: 0;
  }
 .single-team .team-content{
  margin: 15px;
+}
+.banner .row img{
+	padding-right: 0px;
+    margin-left: 0px;
+	margin-top: 23px;
+	width: 40rem;
 }
 @media only screen and (max-width: 360px ) { 
 .status-mes img{padding-left: 97px;}
