@@ -1,12 +1,4 @@
 <?php
-
-//librerias
-  require 'PHPMailer/PHPMailerAutoload.php';
-
-//Create a new PHPMailer instance
-$mail = new PHPMailer();
-$mail->IsSMTP();
-
 	if (isset($_POST["submit"])) {
 		$name = $_POST['name'];
 		$email = $_POST['email'];
