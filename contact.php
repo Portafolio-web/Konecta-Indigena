@@ -1,8 +1,4 @@
 <?php
-require 'PHPMailer/PHPMailerAutoload.php';
-
-$mail = new PHPMailer;
-
 	if (isset($_POST["submit"])) {
 		$name = $_POST['name'];
 		$email = $_POST['email'];
@@ -15,4 +11,3 @@ $mail = new PHPMailer;
 	header("location: gracias.html");
 	}
 ?>
-
