@@ -1,8 +1,5 @@
 <?php
 
-require 'src/Exception.php';
-require 'rc/PHPMailer.php';
-require 'src/SMTP.php';
 	if (isset($_POST["submit"])) {
 
 		$name = $_POST['name'];
