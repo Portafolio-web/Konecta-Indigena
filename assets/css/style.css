@@ -153,7 +153,7 @@ transition: all 0.2s ease 0s;
 width: 50px;
 }
 .topcontrol:hover {
-    background: #852520;
+    background: #D89A0B;
     color: #fff;
 }
 
@@ -176,7 +176,7 @@ transition: all 0.2s ease 0.2s;
 width: 50px;
 }
 .ir-whatsapp:hover {
-    background: #852520;
+    background: #D89A0B;
     color: #fff;
 }
 .ir-whatsapp.active {
@@ -1832,6 +1832,49 @@ color: #fff;}
 	background: #fff;
 	padding: 10px;
 }
+.cards-list {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card {
+  width: 100%;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.card .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.card .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.card .card_title {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -80px;
+  height: 40px;
+}
+
+.card:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 3px 3px 15px 7px rgba(0,0,0,0.25), 
+    -3px -3px 15px 7px rgba(0,0,0,0.22);
+}
+
+
 /*
 * ----------------------------------------------------------------------------------------
 * 16.END CONTACT ADDRESS DESIGN
@@ -2079,16 +2122,38 @@ padding-bottom: 0;
 	margin-top: 25px;
 	width: 40rem;
 }
+
+.blog-card {
+  background: #fff;
+  -webkit-box-shadow: 0 5px 30px -3px rgba(0, 0, 0, 0.16);
+          box-shadow: 0 5px 30px -3px rgba(0, 0, 0, 0.16);
+  margin-bottom: 30px;
+}
+.blog-card .blog-thumbnail {
+  border-radius: 15px;
+  width: 100%;
+  height: 220px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+.blog-card .blog-container {
+  padding: 15px;
+ border-bottom-right-radius: 15px; 
+ border-bottom-left-radius: 15px;
+}
+.blog-card{
+    border-radius: 15px;
+    background:#fff;
+    box-shadow: 0 5px 30px -3px rgba(0,0,0,0.16);
+    margin-bottom: 30px;
+    .blog-thumbnail{
+        width:100%;
+        height:220px;
+        object-fit:cover;
+    }
+    .blog-container{
+        padding:15px;
+        border-bottom-right-radius: 15px; 
+        border-bottom-left-radius: 15px;
+    }
