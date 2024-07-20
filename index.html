@@ -23,27 +23,23 @@
 		<!--slicknav Css-->
         <link rel="stylesheet" href="assets/css/slicknav.css">		
 		<!-- MAGNIFIC CSS -->
-		<link rel="stylesheet" href="assets/css/magnific-popup.css">			
+		<link rel="stylesheet" href="assets/css/magnific-popup.css">	
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 		<!-- component CSS -->	
 		<link rel="stylesheet" href="assets/css/aos.css">			
 		<!-- Style CSS -->
 		<link rel="stylesheet" href="assets/css/style.css">	
+		<link rel="stylesheet" href="assets/css/style-two.css">	
     <!-- FAVICON  -->
      <link rel="icon" type="image/png" href="assets/img/favicon.png" height="500" width="500" alt="Favicon-Konecta">
+     <style>
+         #ultimo + div {
+            visibility: hidden;
+         }
+     </style>
 	</head>
 	
     <body data-spy="scroll" data-offset="80">
-
-		<!-- START PRELOADER -->
-		<div class="preloader">
-			<div class="status">
-				<div class="status-mes">
-					<img src="assets/img/preloader.gif" alt="konecta-indigena">
-				</div>
-			</div>
-		</div>
-		<!-- END PRELOADER -->	
-
 		<!-- START NAVBAR -->  
 		<div id="navigation" class="fixed-top navbar-light bg-faded site-navigation">
 			<div class="container">
@@ -76,41 +72,36 @@
 		<!-- END NAVBAR -->
 		
 		<!-- START HOME -->
-		<section id="home" class="home_video html-video">			
-			<video class="text-center" muted="" autoplay="" loop="">
-				<source type="video/mp4" src="assets/videos/video.mp4">
-				Your browser does not support the video tag.
-			</video> 
+		<section data-stellar-background-ratio="0.3" id="home" class="home_parallax" style="background-image: url(https://media2.giphy.com/media/kzHbIjpbGlQp2vMXhI/giphy.gif);  background-size:cover; background-position: center center; background-repeat:  none repeat scroll 0 0">
 			<div class="hero-text slider-caption text-centert">
-						<h1>Konecta Indígena</h1>
-						<h3 style="color: #fff;">Ambiente Virtual de Aprendizaje</h3>
+						<h1 style="padding-top: 230px;">Konecta Indígena</h1>
+						<h4 style="color: #fff;">"Recorramos juntos un viaje hacia nuestras raíces".</h4>
 						<p></p>
 						<a href="cursos_konecta.html" class="page-scroll btn btn-default btn-home-bg">Ingresa ahora</a>						
-					</div>
+					<h1><a href="index.html#somos" style="cursor: pointer;"><img src="assets/img/flecha-hacia-abajo.svg" class="animate__animated animate__bounce" style="width: 2rem; padding-top: 120px;"></a></h1>
+			    	</div>
 				  </div><!--- END COL -->		  
 				</div><!--- END ROW -->
 			</div><!--- END CONTAINER -->
 		</section>
 		<!-- END  HOME DESIGN -->
-
-
 <!-- START VIDEO -->
-		<section class="video section-padding" style="background-color: #f4f2f9;">
-			<div class="container"data-aos="fade-up">
+		<section class="video section-padding"  style="background-image: url(assets/img/bg/fondo-konecta3.jpg);">
+			<div class="container" data-aos="fade-up">			<div id="somos"></div>
 				<div class="row">			
 					<div class="col-lg-6 col-sm-12 col-xs-12">
 						<div class="watch_video_img">
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/4yPkISU8k28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/nhUtS1q-5o4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						</div>
 					</div><!--- END COL -->
 					<div class="col-lg-6 col-sm-12 col-xs-12">
 						<div class="watch_video">
 							<h2>¿Qué es Konecta Indígena?</h2>
 							<span></span>
-							<p style="font-size: 18px;">Es un ambiente virtual de aprendizaje, AVA, desarrollado para fortalecer las competencias de los conocimientos de estudiantes 4 y 5 de primaria sobre la cultura indígena colombiana a través de cursos de historia, religión y actualidad en el siglo XXl.</p>
+							<p style="font-size: 18px;">Es un ambiente virtual de aprendizaje, AVA, que nos acerca a las culturas indígenas para fortalecer las competencias de los conocimientos en estudiantes que cursen 4 a 5 de primaria a través de cursos de historia y cosmogonía.</p>
 							<p style="padding-bottom: 5px;"></p>
 							<center>
-							<a href="proyecto_multimedia" class="page-scroll btn btn-lg btn-promotion-bg">Nuestro proyecto</a>
+							<a href="proyecto_multimedia.html" class="page-scroll btn btn-lg btn-promotion-bg">Nuestro proyecto</a>
 							</center>
 
 						</div>
@@ -125,7 +116,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="section-title text-center">
-							<h1>Nuestros Valores</h1>
+							<h1>Nuestros valores</h1>
 							<span></span>
 						</div>
 					</div>
@@ -137,7 +128,7 @@
 									<a href="assets/img/valores/konecta-enseñanza.jpg" class="work-popup">
 										<figure class="effect-bubba">
 											<center>
-											<img src="assets/img/valores/konecta-enseñanza.png" class="img-fluid" alt="enseñanza-konecta" style="width: 11rem;">					
+											<img src="assets/img/valores/konecta-enseñanza2.png" class="img-fluid" alt="enseñanza-konecta" style="width: 11rem;">					
                       <p></p>
                       <img src="assets/img/valores/estrella.png" style="width: 25px;" alt="estrella-indigena">
                       <h style="color: #1D293E; font-size: 22px; font-weight: bold; padding-top: 30px;">Enseñanza</h>
@@ -149,7 +140,7 @@
 									<a href="assets/img/valores/konecta-inclusion.jpg" class="work-popup">
 										<figure class="effect-bubba">
 											<center>
-											<img src="assets/img/valores/konecta-inclusion.png" class="img-fluid" alt="image" style="width: 11rem;">
+											<img src="assets/img/valores/konecta-inclusion2.png" class="img-fluid" alt="image" style="width: 11rem;">
                       <p></p>
                       <img src="assets/img/valores/estrella.png" style="width: 25px;" alt="estrella-indigena">
                       <h style="color: #1D293E; font-size: 22px; font-weight: bold; padding-top: 30px;">Inclusión</h>	
@@ -161,7 +152,7 @@
 									<a href="assets/img/valores/konecta-innovacion.jpg" class="work-popup">
 										<figure class="effect-bubba">
 											<center>
-											<img src="assets/img/valores/konecta-innovacion.png" class="img-fluid" alt="image" style="width: 11rem;">
+											<img src="assets/img/valores/konecta-innovacion2.png" class="img-fluid" alt="image" style="width: 11rem;">
                       <p></p>
                       <img src="assets/img/valores/estrella.png" style="width: 25px;" alt="estrella-indigena">
                       <h style="color: #1D293E; font-size: 22px; font-weight: bold; padding-top: 30px;">Innovación</h>
@@ -173,7 +164,7 @@
 									<a href="assets/img/valores/konecta-identidad.jpg"class="work-popup">
 										<figure class="effect-bubba">
 											<center>
-											<img src="assets/img/valores/konecta-identidad.png" class="img-fluid" alt="image" style="width: 11rem;">
+											<img src="assets/img/valores/konecta-identidad2.png" class="img-fluid" alt="image" style="width: 11rem;">
                       <p></p>
                       <img src="assets/img/valores/estrella.png" style="width: 25px;" alt="estrella-indigena">
                       <h style="color: #1D293E; font-size: 22px; font-weight: bold; padding-top: 30px;">Identidad</h>
@@ -185,7 +176,7 @@
 									<a href="assets/img/valores/konecta-crecimiento.jpg" class="work-popup">
 										<figure class="effect-bubba">
 											<center>
-											<img src="assets/img/valores/konecta-crecimiento.png" class="img-fluid" alt="image" style="width: 11rem;">
+											<img src="assets/img/valores/konecta-crecimiento2.png" class="img-fluid" alt="image" style="width: 11rem;">
                       <p></p>
                       <img src="assets/img/valores/estrella.png" style="width: 25px;" alt="estrella-indigena">
                       <h style="color: #1D293E; font-size: 22px; font-weight: bold; padding-top: 30px;">Crecimiento</h>
@@ -201,7 +192,7 @@
 		<!-- VALUES -->
 
 		<!-- START ABOUT -->
-		<section id="about" class="about_me section-padding"  style="background-color: #f4f2f9">
+		<section id="about" class="about_me section-padding"  style="background-image: url(assets/img/bg/fondo-konecta2.jpg);">
 		   <div class="container">
 				<div class="row">					
 					<div class="col-lg-6 col-sm-6 col-xs-12" data-aos="fade-up">
@@ -213,7 +204,7 @@
 						<div class="single_about">
 							<h1>¿A quién va dirigido Konecta Indígena?</h1>
 							<span></span>
-							<p style="font-size: 18px;">A instituciones educativas públicas y privadas de Bogotá interesadas en complementar el currículo y cumplir con los estándares de ciencias sociales para sus estudiantes de 4 y 5 primaria, enseñando la historia de nuestros antepasados indígenas de forma innovadora y entretenida.</p>
+							<p style="font-size: 18px;">A todas las instituciones educativas públicas y privadas de Bogotá, interesadas en complementar su currículo de enseñanza en el área de las ciencias sociales, enseñando de una forma innovadora y entretenida.</p>
 						</div>
 					</div><!-- END COL -->				
 				</div><!-- END ROW -->
@@ -226,12 +217,12 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-7 col-sm-12 col-xs-12" data-aos="fade-up">
-						<div class="promotion_content" style="border-radius: 20px; background-color: #f4f2f9;">
+						<div class="promotion_content2" style="border-radius: 20px; background-color: hsla(244, 100%, 100%, .8);">
 							<h2 style="font-weight: bold;">¿Qué esperas para ser parte de nuestra comunidad?</h2>
 							<p></p>
-							<h4></h4>Intégrate con nuestra comunidad y juntos lograremos dar una solución innovadora a la educación virtual.</h4>
-							<p></p>
-							<a href="nuestra_comunidad.html" class="page-scroll btn btn-lg btn-promotion-bg">Nuestra Comunidad</a>	
+							<p style="font-size: 18px;">Intégrate ahora mismo a nuestra comunidad y juntos lograremos dar una solución innovadora a la educación virtual.</p>
+							<p class="space"></p>
+							<a href="nuestra_comunidad.html" class="page-scroll btn btn-lg btn-promotion-bg">Nuestra comunidad</a>	
 						</div>
 					</div><!-- END COL  -->
 				</div><!--END  ROW  -->
@@ -257,7 +248,7 @@
                         </div>
                         <div class="col-sm-3 col-md-3 offset-sm-1 footer-contact wow fadeInDown" style="color: #fff;">
                         <div class="menu_rapido">
-                        <p style="color: #fff; font-weight: bold; font-size: 18px; font-weight: 10px; font-family: Comfortaa;">Menú Rápido</p>
+                        <p style="color: #fff; font-weight: bold; font-size: 18px; font-weight: 10px; font-family: Comfortaa;">Menú rápido</p>
                             <p></p>ㅤ
                             <p></p>
                             <li style="font-size: 16px; color: #fff; padding-bottom: 3px;">
@@ -296,12 +287,13 @@
                         <p style="color: #fff; font-weight: bold; font-size: 18px; font-weight: 10px; font-family: Comfortaa;">Redes sociales</p>
                         <p style="padding-bottom: 20px;"></p>
                         <a href="https://www.facebook.com/Konecta-Ind%C3%ADgena-100694798808647/" target="blank" style="text-decoration: none; color: #fff;" class="web"><i class="fa fa-facebook" style="font-size: 152%; padding-right: 14px; padding-left: 14px; padding-top: 8px; padding-bottom: 8px; border-radius: 200px; text-decoration: none; margin-right: 6px;"></i></a>
-                        <a href="https://twitter.com/konectaindigena?s=09" target="blank" style="text-decoration: none; color: #fff;" class="web">
-                         <i class="fa fa-twitter" style="font-size: 170%; padding-right: 8px; padding-left: 9px; padding-top: 7px; padding-bottom: 7px; border-radius: 200px; text-decoration: none; margin-right: 6px;"></i></a>
                         <a href="https://instagram.com/konectaindigena?igshid=j4v6e0thpewi" target="blank" style="text-decoration: none; color: #fff;" class="web">
                          <i class="fa fa-instagram" style="font-size: 165%; padding-right: 10px; padding-left: 10px; padding-top: 7px; padding-bottom: 7px; border-radius: 200px; text-decoration: none; margin-right: 6px;"></i></a>
-                        <a href="   " target="blank" style="text-decoration: none; color: #fff;" class="web">
-                         <i class="fa fa-envelope" style="font-size: 150%; padding-right: 8px; padding-left: 9px; padding-top: 8px; padding-bottom: 8px; border-radius: 200px; text-decoration: none; margin-right: 6px;"></i></a>
+                         <a href=" " target="blank" style="text-decoration: none; color: #fff;" class="web">
+                         <i class="fa fa-youtube" style="font-size: 165%; padding-right: 10px; padding-left: 10px; padding-top: 7px; padding-bottom: 7px; border-radius: 200px; text-decoration: none; margin-right: 6px;"></i></a>
+                        <a href="#" target="blank" style="text-decoration: none; color: #fff;" class="web">
+                        <a href="mailto:konectaindigena1@gmail.com" target="blank" style="text-decoration: none; color: #fff;" class="web">
+                         <i class="fa fa-envelope" style="font-size: 150%; padding-right: 8px; padding-left: 9px; padding-top: 8px; padding-bottom: 8.5px; border-radius: 200px; text-decoration: none; margin-right: 6px;"></i></a>
                          <p></p>&nbsp;
                         </div>
                         </div>
@@ -359,5 +351,6 @@
 			<script src="assets/js/ripples-min.js"></script>		
 		<!-- scripts js -->
 			<script src="assets/js/scripts.js"></script>
+<div id="ultimo"></div>
     </body>
 </html>

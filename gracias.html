@@ -59,14 +59,21 @@
 			text-decoration: none;
 		}
 	</style>
+     <style>
+         #ultimo + div {
+            visibility: hidden;
+         }
+     </style>
+	</head>
+	
 </head>
 
 <body>
-	<section class="welcome-area"  style="background-image: url(assets/img/bg/textura-konecta.jpg);  background-size:cover; background-position: center center;">
+	<section class="welcome-area"  style="background-image: url(https://media2.giphy.com/media/kzHbIjpbGlQp2vMXhI/giphy.gif);  background-size:cover; background-position: center center;">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 offset-lg-2 col-sm-12 col-xs-12 text-center">
-					<div class="hero-text">
+					<div class="hero-text" style="border-radius: 20px; background-color: hsla(244, 100%, 100%, .8);">
 						<h1>¡Tu mensaje se ha enviado de manera exitosa!</h1>
 						<a class="back-home" href="index.html">Volver al inicio</a>
 					</div>
@@ -74,10 +81,13 @@
 			</div>
 		</div>
 	</section>
+
+	<p style="padding-bottom: 900px;"></p>
 		
 		<!-- Latest jQuery -->
 		<script src="assets/js/jquery-1.12.4.min.js"></script>
 		<!-- Latest compiled and minified Bootstrap -->
 			<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-</body>
+<div id="ultimo"></div>
+    </body>
 </html>
