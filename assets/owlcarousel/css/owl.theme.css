@@ -43,6 +43,7 @@ text-align: center;
 }
 .owl-theme .owl-controls .owl-page span{
 	display: none;
+	background-color: blue;
 	width: 6px;
 	height: 6px;
 	margin: 5px 7px;

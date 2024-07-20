@@ -1436,7 +1436,6 @@ if (typeof Object.create !== "function") {
         }
 
     };
-
     $.fn.owlCarousel = function (options) {
         return this.each(function () {
             if ($(this).data("owl-init") === true) {
